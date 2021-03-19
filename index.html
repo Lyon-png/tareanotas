@@ -1,0 +1,21 @@
+<html>
+<head></head>
+<body>
+	<form action="archivotxt.php" method="post">
+
+Asunto: <br><input type="text" name="asunto"><br><br>
+
+Descripcion: <br><textarea name="descripcion" rows="10" cols="30"></textarea>
+
+<br><br><input type="submit" name="boton" value="Crear .txt"><br><br>
+
+
+<br><strong><?php echo $msg?></strong>
+Carpeta: <br><input type="text" name="carpeta"><br><br>
+
+<input type="submit" name="boton2" value="crear carpeta">
+
+<input type="hidden" name="directorio">
+</form>
+</body>
+</html>
